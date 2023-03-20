@@ -1,0 +1,27 @@
+# print positive Numbers in a List
+  
+# input of list
+li=[]
+n=int(input("Enter size of list "))
+for i in range(0,n):
+    e=int(input("Enter element of list "))
+    li.append(e)
+
+print("Positive numbers in",li,"are: ")
+  
+#traversing
+for i in li:   
+    # checking condition
+    if i >= 0:
+       print(i, end = " ")
+
+
+
+
+OUTPUT -
+Enter size of list 4
+Enter element of list 3
+Enter element of list -9
+Enter element of list 0
+Enter element of list 1
+Positive numbers in [3,-9,0,1] are 3,0,1
